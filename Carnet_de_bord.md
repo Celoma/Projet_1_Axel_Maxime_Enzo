@@ -6,4 +6,5 @@
 
 ## 16/09
 
--
+- affichage marqueur tempé sur map
+- essaye wget sur pc du lycée
