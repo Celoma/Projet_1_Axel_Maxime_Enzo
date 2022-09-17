@@ -7,9 +7,15 @@
 ## 16/09
 
 - essayer affichage marqueur température sur map
-- essaye du module wget sur pc du lycée --- marche sur les pc où wget est installé
+- essaye du module 'wget' sur pc du lycée --- marche sur les pc où wget est installé
 - conversion des coordonnées mal écrite sur le fichier [coord_région](https://github.com/NSImoulin2023/Projet_1_Axel_Maxime_Enzo/blob/main/region_coord.csv)
+- defini qui fait quoi -- meilleur organisation
 
-### Pour la prochaine séance
+### Dans la prochaine séance
 1. Créer une fonction qui rassemble les différents fichiers csv uilisés et supprime les données inutiles
 2. Finir la fonction qui corrige les données mal-écrites
+
+## 17/09 (Maxime - séance perso)
+
+- fonction 'recup_fichier' qui recupère le fichier compressé venant de [data.gouv]((https://www.data.gouv.fr/fr/datasets/donnees-d-observation-des-principales-stations-meteorologiques/)
+- fonction 'extra' qui décompresse le fichier compressé précedemment téléchargé
