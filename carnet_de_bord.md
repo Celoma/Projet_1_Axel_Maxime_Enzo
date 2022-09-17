@@ -17,5 +17,5 @@
 
 ## 17/09 (Maxime - séance perso)
 
-- fonction 'recup_fichier' qui recupère le fichier compressé venant de [data.gouv](https://www.data.gouv.fr/fr/datasets/donnees-d-observation-des-principales-stations-meteorologiques/)
-- fonction 'extra' qui décompresse le fichier compressé précedemment téléchargé
+- fonction 'recup_fichier' qui recupère le fichier compressé venant de [la source](https://www.data.gouv.fr/fr/datasets/donnees-d-observation-des-principales-stations-meteorologiques/)
+- fonction 'extrac' qui décompresse le fichier compressé précedemment téléchargé
