@@ -1,8 +1,8 @@
-import wget, gzip
+import wget
 
 
 def recup_fichier(url):
-    """Récupère (télécharge) un fichier compressé sur le web grâce au module 'wget'
+    """Télécharge un fichier compressé sur le web grâce au module 'wget'
 
     :param str url: url menant au fichier sur le web
 
