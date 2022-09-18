@@ -22,4 +22,4 @@
 
 ## 18/09 (Axel - séance perso)
 
-- modifier fichier des coordonnées des regions et mis dans le csv "true_region_coord" à l'aide d'une fonction 
+- Modifier le fichier csv "region_coord" pour remplacer les coordonées 'N,S,W,E' par les carractères '+' ou '-' dans le csv "true_region_coord" à l'aide d'une fonction python.
