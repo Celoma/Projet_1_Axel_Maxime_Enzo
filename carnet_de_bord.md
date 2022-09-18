@@ -19,3 +19,7 @@
 
 - fonction 'recup_fichier' qui recupère le fichier compressé venant de [la source](https://www.data.gouv.fr/fr/datasets/donnees-d-observation-des-principales-stations-meteorologiques/)
 - fonction 'extraction_csv' qui décompresse le fichier compressé précedemment téléchargé
+
+## 18/09 (Axel - séance perso)
+
+- modifier fichier des coordonnées des regions et mis dans le csv "true_region_coord" à l'aide d'une fonction 
