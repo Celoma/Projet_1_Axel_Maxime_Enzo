@@ -2,6 +2,10 @@ import csv
 
 
 def import_table_dicos(fichier):
+    """
+    fonction utiliser l'année derniere pour ouvrir csv en list de dico
+
+    """
     f = open(fichier, "r", encoding="utf-8")
     tab_dico = []
     lignes = f.readlines()
@@ -17,7 +21,15 @@ def import_table_dicos(fichier):
 
 
 
-def ajuster_coor(dico):
+def ajuster_coor(tab):
+    """
+    renvoie la list de dico avec les coordonnées lisable par folium
+
+    :param tab(dico): tableau de dico composer des clefs "latitude" et "longitude"
+
+    :rtype:  tab(dico)
+
+    """
     for i in range(len(tab)):
         if tab[i]["Latitude"][-1] == "N" :
             eff_dir = "N"
